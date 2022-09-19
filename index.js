@@ -5,16 +5,15 @@ const dog_btn2=document.getElementById('btn2')
 
 
 cat_btn.addEventListener( 'click', getRandomCat );
-
-function getRandomCat() {
+ function getRandomCat() {
 	fetch( 'https://aws.random.cat/meow' )
-		.then( res => res.json() )
+	 		.then( res => res.json() )
 		.then( data => {
 			 cat_result.innerHTML = `<img src="${data.file}" />`;
-			 
-		} );
-    
-	}
+		console.log(data)	 
+ 		} );
+ 	}
+
 	
 dog_btn2.addEventListener( 'click', getRandomdogs );
 
@@ -30,4 +29,3 @@ function getRandomdogs() {
 	} );
 }
 		
-

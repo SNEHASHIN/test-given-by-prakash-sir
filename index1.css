@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-image: linear-gradient(red, yellow, green, blue, purple);
+    height: 640px;
+}
+
+.cityName{
+    background-color: yellow;
+    font-size: large;
+    margin-top: 100px;
+    width: 300px;
+    height: 30px;
+    border:none;
+   
+}
+
+.submitButton{
+    background-color: yellow;
+    color:green;
+    font-size: large;
+    width:80px;
+    height:30px;
+    border:none;
+   
+}
+
+/* .submitButton:hover{
+    background-color: rgb(238, 238, 34)
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    margin-top: 20px;
+    color: green;
+}
